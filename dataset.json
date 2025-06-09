@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+      "responses": ["Hello, I'm here to support you. How are you feeling today?", "Hi there! I'm listening."]
+    },
+    {
+      "tag": "feeling_down",
+      "patterns": ["I'm feeling sad", "I feel down", "I'm depressed", "I don't feel good"],
+      "responses": ["I'm really sorry you're feeling this way. Would you like to talk about what's bothering you?", "You're not alone. I'm here to listen."]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": ["I feel anxious", "I'm nervous", "I'm scared", "I have anxiety"],
+      "responses": ["Take a deep breath. Would you like a calming exercise?", "It's okay to feel anxious. Want to try a grounding technique?"]
+    },
+    {
+      "tag": "panic_attack",
+      "patterns": ["I'm having a panic attack", "I can't breathe", "My heart is racing", "I'm panicking"],
+      "responses": [
+        "You're going to be okay. Try the 5-4-3-2-1 grounding method: Name 5 things you can see, 4 you can touch, 3 you hear, 2 you smell, and 1 you taste.",
+        "Breathe slowly with me: Inhale for 4 seconds, hold for 4, exhale for 4."
+      ]
+    },
+    {
+      "tag": "lonely",
+      "patterns": ["I'm feeling lonely", "I have no one", "I'm alone", "Nobody cares"],
+      "responses": ["I care, and I'm here for you. You're not alone.", "Would you like to talk about how you're feeling?"]
+    },
+    {
+      "tag": "suicidal_thoughts",
+      "patterns": ["I want to die", "I feel like ending it", "I can't go on", "I'm suicidal"],
+      "responses": [
+        "I'm so sorry you're feeling this way. You're not alone. Please talk to someone you trust or call a mental health helpline. You matter.",
+        "Please consider reaching out to a professional. Your life is valuable, and help is available. Would you like some helpline contacts?"
+      ]
+    },
+    {
+      "tag": "self_care_tips",
+      "patterns": ["What can I do to feel better?", "Any self-care tips?", "How can I take care of myself?"],
+      "responses": [
+        "Try going for a short walk, journaling your thoughts, or practicing deep breathing. Even small steps help.",
+        "Listening to music, drinking water, or taking a warm shower can make a difference. Want a guided meditation link?"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "I appreciate it"],
+      "responses": ["You're very welcome. I'm glad I could help.", "Here for you anytime."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Talk to you later"],
+      "responses": ["Take care of yourself. Reach out anytime.", "Goodbye. Remember you're not alone."]
+    }
+  ]
+}
