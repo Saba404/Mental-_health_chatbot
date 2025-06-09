@@ -39,3 +39,8 @@ The chatbot offers support, but not medical advice.
 
 It's helpful, but not a replacement for therapy or professional mental health help.
 
+
+Following is the link to chatbot :
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mental-healthchatbotgit-z2utvy7ppswlzhtvwa4bbv.streamlit.app/)
+
